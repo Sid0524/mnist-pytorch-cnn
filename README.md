@@ -2,36 +2,72 @@
 
 This project implements a Convolutional Neural Network (CNN) for handwritten digit classification using the MNIST dataset.
 
-## Model Architecture
+---
 
-Conv2D → ReLU → MaxPool  
-Conv2D → ReLU → MaxPool  
-Fully Connected Layer  
-Output Layer (10 classes)
+## 📌 Model Architecture
 
-## Project Structure
+* Conv2D → ReLU → MaxPool
+* Conv2D → ReLU → MaxPool
+* Fully Connected Layer
+* Output Layer (10 classes)
 
-model.py → CNN architecture
-train.py → training pipeline
-test.py → inference
-requirements.txt → dependencies
+---
 
-## Installation
+## 📁 Project Structure
 
+```
+model.py          → CNN architecture  
+train.py          → training pipeline  
+test.py           → inference  
+requirements.txt  → dependencies  
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
 pip install -r requirements.txt
+```
 
-## Training
+---
 
+## 🚀 Training
+
+```bash
 python train.py
+```
 
-## Testing
+---
 
+## 🔍 Testing
+
+```bash
 python test.py
+```
 
-## Dataset
+---
 
-MNIST dataset automatically downloads during training.
+## 📊 Results
 
-## Framework
+* Accuracy: ~98%
+* Dataset: MNIST
+* Framework: PyTorch
 
-PyTorch
+---
+
+## 📦 Dataset
+
+The MNIST dataset is automatically downloaded during training.
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* PyTorch
+* NumPy
+* OpenCV
+
+---
+
